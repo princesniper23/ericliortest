@@ -10,6 +10,13 @@
             "request": "launch",
             "name": "Open index.html (pwa-chrome)",
             "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open via Live Server (http://127.0.0.1:5500)",
+            "url": "http://127.0.0.1:5500/index.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
