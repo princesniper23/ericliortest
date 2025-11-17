@@ -71,6 +71,28 @@ h1 {
     transform: scale(0.95);
 }
 
+/* Styles pour l'image bouton */
+.btn-next-img {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    max-width: 80%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+    box-shadow: 0 8px 30px rgba(255, 71, 87, 0.5);
+}
+.btn-next-img:hover {
+    transform: scale(1.03);
+    filter: brightness(1.05);
+    box-shadow: 0 12px 40px rgba(255, 71, 87, 0.65);
+}
+.btn-next-img:active,
+.btn-next-img:focus {
+    transform: scale(0.98);
+    outline: 3px solid rgba(255,255,255,0.25);
+}
+
 @media (max-width: 600px) {
     h1 {
         font-size: 2rem;
